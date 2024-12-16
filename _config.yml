@@ -1,0 +1,54 @@
+# 项目名称
+name: My Awesome Project
+
+# 项目描述
+description: This is a detailed description of my project. It explains what the project is about, its main features, and the problem it aims to solve.
+
+# 作者信息
+author:
+  name: Your Name
+  email: your_email@example.com
+
+# 项目版本
+version: 1.0.0
+
+# 构建配置（如果适用）
+build:
+  # 构建命令
+  command: npm run build
+  # 构建输出目录
+  output: dist
+
+# 测试配置（如果适用）
+test:
+  # 测试命令
+  command: npm test
+
+# 依赖管理（如果适用）
+dependencies:
+  # 这里列出项目的依赖项，格式为：包名: 版本范围
+  lodash: ^4.17.21
+  axios: ^0.21.1
+
+# 开发环境配置（如果适用）
+dev:
+  # 开发服务器启动命令
+  command: npm run start
+  # 开发服务器端口号
+  port: 3000
+
+# 主题配置（如果项目与主题相关，如某些博客系统）
+theme:
+  name: Default Theme
+  # 主题相关的其他设置，例如颜色、布局等自定义配置
+  colors:
+    primary: "#333333"
+    secondary: "#666666"
+  layout: sidebar-left
+
+# 部署配置（如果适用）
+deploy:
+  # 部署目标，例如 GitHub Pages、Netlify 等
+  target: gh-pages
+  # 部署目录（如果与构建输出目录不同）
+  directory: public
